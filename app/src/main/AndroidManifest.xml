@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.artesano">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Artesano">
+
+        <activity
+            android:name=".ViewCartActivity"
+            android:exported="true"/>
+
+
+        <activity
+            android:name=".ActivityClienteDatos"
+            android:exported="true"/>
+
+        <activity
+            android:name=".HomeActivity"
+            android:exported="true"/>
+
+        <activity
+            android:name=".HomeActivityArtesano"
+            android:exported="true"/>
+
+        <activity
+            android:name=".CartaActivityArtesano"
+            android:exported="true"/>
+
+        <activity
+            android:name=".CartaDetailActivityArtesano"
+            android:exported="true"/>
+
+        <activity
+            android:name=".ActivityAddCategory"
+            android:exported="true"/>
+
+        <activity
+            android:name=".ActivityAddPlato"
+            android:exported="true"/>
+
+        <activity
+            android:name=".AuthActivityArtesano"
+            android:exported="true"/>
+
+        <activity
+            android:name=".AuthActivityCliente"
+            android:exported="true"/>
+
+        <activity
+            android:name=".AuthActivityPassRecovery"
+            android:exported="true"/>
+
+        <activity
+            android:name=".AuthActivityClienteRegistro"
+            android:exported="true"/>
+
+
+        <activity android:name=".AuthActivity"
+            android:exported="true"
+            android:theme="@style/TemaSplash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

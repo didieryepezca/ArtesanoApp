@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Artesano</string>
+    <string name="prefs_file">com.example.firebasetutorial.PREFERENCE_FILE_KEY</string>
+
+    <string-array name="spinnerAvailabilityArray">
+        <item>Disponible</item>
+        <item>No Disponible</item>
+    </string-array>
+</resources>

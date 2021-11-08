@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "994576054609",
+    "project_id": "artesano-8a330",
+    "storage_bucket": "artesano-8a330.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994576054609:android:50ffa0c4a79b53e5a73b70",
+        "android_client_info": {
+          "package_name": "com.example.artesano"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "994576054609-i9hv543sq3b8boa4css6q533cco2osv4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.artesano",
+            "certificate_hash": "4c2f42336ac871f52605b3be884038935b2bf0c1"
+          }
+        },
+        {
+          "client_id": "994576054609-prk4mpptvudh4r5l7t7avls1k1pqnij9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCaqtD2Zv8a7yE75qFstexPRG6T8ehfuA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "994576054609-prk4mpptvudh4r5l7t7avls1k1pqnij9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

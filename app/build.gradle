@@ -1,0 +1,80 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+
+    id 'kotlin-android-extensions' // Para interconectar las pantallas con el codigo Kotlin por IDs, etc.
+}
+
+//añadimos de lo que nos arroja la consola de Firebase
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdk 31
+
+    defaultConfig {
+        applicationId "com.example.artesano"
+        minSdk 23
+        targetSdk 31
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    //para bindear las imagenes con los imageViews desde Firebase Storage
+    buildFeatures{
+        viewBinding true
+    }
+
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.core:core-ktx:1.6.0'
+    implementation 'androidx.appcompat:appcompat:1.3.1'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.1'
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+
+
+    implementation platform('com.google.firebase:firebase-bom:28.4.1') //Añadimos de lo que nos arroja Firebase
+    implementation 'com.google.firebase:firebase-analytics-ktx' //Añadimos de lo que nos arroja Firebase
+    implementation 'com.google.firebase:firebase-auth-ktx'//Añadimos libreria de autenticacion
+    implementation 'com.google.android.gms:play-services-auth:19.2.0' //Añadimos libreria de autenticacion con GMAIL
+
+    implementation 'com.google.firebase:firebase-config-ktx' //Añadimos libreria para Remote Config(usuarios Json)
+
+    implementation 'com.google.firebase:firebase-messaging:20.2.0' //Añadimos notificaciones push
+    implementation 'com.google.firebase:firebase-firestore-ktx' //Añadimos BD Firestore a proyecto.
+
+    implementation 'com.google.firebase:firebase-storage-ktx' //Añadimos almacenamiento Firebase Storage para archivos.
+
+
+    implementation 'androidx.recyclerview:recyclerview:1.2.0' //para trabajar con listas optimizadas
+
+    implementation 'com.squareup.picasso:picasso:2.71828' //Libreria para setear imagenes desde URL en ImageViews.
+    implementation 'com.makeramen:roundedimageview:2.3.0' // para ver imagenes redondeadas.
+
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0' //Para persistencia de clases y/o objetos, como para pasarlos entre 2 o mas pantallas
+
+
+}

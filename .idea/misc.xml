@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/didie/AndroidStudioProjects/Artesano/app/src/main/res/drawable/badge_background.xml" value="0.2703125" />
+        <entry key="..\:/Users/didie/AndroidStudioProjects/Artesano/app/src/main/res/drawable/cart_icon.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/didie/AndroidStudioProjects/Artesano/app/src/main/res/drawable/client_address_icon24.xml" value="0.2703125" />
+        <entry key="..\:/Users/didie/AndroidStudioProjects/Artesano/app/src/main/res/drawable/login_back.xml" value="0.2125" />
+        <entry key="..\:/Users/didie/AndroidStudioProjects/Artesano/app/src/main/res/drawable/login_etd.xml" value="0.2125" />
+        <entry key="..\:/Users/didie/AndroidStudioProjects/Artesano/app/src/main/res/drawable/splashscreen.xml" value="0.26615384615384613" />
+        <entry key="..\:/Users/didie/AndroidStudioProjects/Artesano/app/src/main/res/layout/activity_add_category.xml" value="0.1" />
+        <entry key="..\:/Users/didie/AndroidStudioProjects/Artesano/app/src/main/res/layout/activity_add_plato.xml" value="0.2427536231884058" />
+        <entry key="..\:/Users/didie/AndroidStudioProjects/Artesano/app/src/main/res/layout/activity_auth.xml" value="0.264" />
+        <entry key="..\:/Users/didie/AndroidStudioProjects/Artesano/app/src/main/res/layout/activity_auth_artesano.xml" value="0.264" />
+        <entry key="..\:/Users/didie/AndroidStudioProjects/Artesano/app/src/main/res/layout/activity_auth_cliente.xml" value="0.264" />
+        <entry key="..\:/Users/didie/AndroidStudioProjects/Artesano/app/src/main/res/layout/activity_auth_cliente_registro.xml" value="0.24818840579710144" />
+        <entry key="..\:/Users/didie/AndroidStudioProjects/Artesano/app/src/main/res/layout/activity_carta_artesano.xml" value="0.264" />
+        <entry key="..\:/Users/didie/AndroidStudioProjects/Artesano/app/src/main/res/layout/activity_carta_detail_artesano.xml" value="0.264" />
+        <entry key="..\:/Users/didie/AndroidStudioProjects/Artesano/app/src/main/res/layout/activity_cliente_update.xml" value="0.23822463768115942" />
+        <entry key="..\:/Users/didie/AndroidStudioProjects/Artesano/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Users/didie/AndroidStudioProjects/Artesano/app/src/main/res/layout/activity_home_artesano.xml" value="0.25" />
+        <entry key="..\:/Users/didie/AndroidStudioProjects/Artesano/app/src/main/res/layout/activity_send_mail_recovery.xml" value="0.264" />
+        <entry key="..\:/Users/didie/AndroidStudioProjects/Artesano/app/src/main/res/layout/activity_view_cart.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/didie/AndroidStudioProjects/Artesano/app/src/main/res/layout/card_categorias_carta.xml" value="0.264" />
+        <entry key="..\:/Users/didie/AndroidStudioProjects/Artesano/app/src/main/res/layout/card_pedido_item.xml" value="0.2328125" />
+        <entry key="..\:/Users/didie/AndroidStudioProjects/Artesano/app/src/main/res/layout/card_plato_carta.xml" value="0.264" />
+        <entry key="..\:/Users/didie/AndroidStudioProjects/Artesano/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.26615384615384613" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
