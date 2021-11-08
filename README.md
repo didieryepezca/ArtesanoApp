@@ -1,0 +1,2 @@
+# ArtesanoApp
+Aplicación Android básica para restaurantes, permite logearnos como dueños del restaurante o como cliente, podemos administrar la carta del restaurante como dueños o realizar pedidos como clientes, utilizamos los servicios de Google de Firebase, tales como Autenticación con Google, Configuración Remota(Remote Config), Firestore para base de datos, Storage para archivos y posteriormente Cloud Messagin.
