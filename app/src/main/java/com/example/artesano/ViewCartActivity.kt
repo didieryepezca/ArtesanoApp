@@ -4,6 +4,7 @@ import android.app.AlertDialog
 import android.app.ProgressDialog
 import android.content.Context
 import android.content.DialogInterface
+import android.content.Intent
 import android.os.Bundle
 import android.text.InputType
 import android.widget.EditText
@@ -186,9 +187,16 @@ class ViewCartActivity : AppCompatActivity() {
         //set message for alert dialog
         builder.setMessage("Tu pedido ha sido enviado con éxito, haz seguimiento a tu pedido...")
         builder.setIcon(android.R.drawable.ic_dialog_info)
+        builder.setCancelable(false)
 
         //performing positive action
         builder.setPositiveButton("OK") { dialogInterface, which ->
+
+            val mainMenuIntent = Intent(this, HomeActivity::class.java).apply {
+                putExtra("nombre", usuario)
+
+            }
+            startActivity(mainMenuIntent)
         }
         val alertDialog: AlertDialog = builder.create()
         alertDialog.show()
