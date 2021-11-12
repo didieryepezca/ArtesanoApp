@@ -184,7 +184,8 @@ class CartaDetailActivityArtesano : AppCompatActivity() {
             itemEncontrado?.cantidad = itemEncontrado?.cantidad!! + 1
             itemEncontrado?.semitotal = itemEncontrado?.precio!! * itemEncontrado?.cantidad!!
 
-        }else{
+        }else if(disp != "No Disponible"){
+
             pedidoDetail.item_key = pedidoItemKey
             pedidoDetail.pedido_key_detalle = pedidoKey
             pedidoDetail.plato_id = platoId
@@ -195,6 +196,16 @@ class CartaDetailActivityArtesano : AppCompatActivity() {
             pedidoDetail.semitotal = pedidoDetail.precio!!
 
             listaMutable.add(pedidoDetail)
+        } else {
+
+            var msjito = AlertDialog.Builder(this)
+            msjito.setTitle("Atención")
+            msjito.setMessage("El plato que has elegido no está disponible en estos momentos.")
+            msjito.setIcon(android.R.drawable.ic_dialog_alert)
+            msjito.setPositiveButton("OK") { dialogInterface, which ->
+            }
+            val alertDialog: AlertDialog = msjito.create()
+            alertDialog.show()
         }
 
         //----------------- Guardamos la lista en Shared Preferences para recuperarla desde cualquier parte
